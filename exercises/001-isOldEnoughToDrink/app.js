@@ -1,4 +1,8 @@
 function isOldEnoughToDrink(age) {
-    // your code here
-    
+    const DRINKINGAGE = 21;
+    if (age >=DRINKINGAGE){
+        return true;
+    } else {
+    return false;
+}
 }
